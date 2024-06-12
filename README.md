@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i` 
+to install all the dependencies and then run the below command to start the app
 
 ### `npm start`
 
@@ -13,6 +15,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### Steps to interact and functionalities implemented:
+1 It is responsive for both mobile and pc.
+2 When user click on login or register an alert will be shown then user image will be come.
+3 Some of icons are implemented with hover and parallax effect which can be seen on hover and scroll.
+4 On Mobile screen the top selling course section, browse by category section will be scrollable in left to right direction.
+5 In top most course dropdown had a random data just for interactivity purpose.
+
+
+
+
 
 ### `npm test`
 
