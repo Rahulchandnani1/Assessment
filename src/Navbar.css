@@ -1,0 +1,93 @@
+.navdiv{
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.div1{
+    width: 40%;
+    padding-left: 2%;
+    img{width: 76px;
+    height: 55px;margin-right: 8%;}
+    display: flex;
+    select{border: none;width: 20%;font-size: 1.3vw;}
+
+}
+.div2{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    input{
+        width: 50%;
+        border: 1px solid #868A90;
+        padding-left: 2%;font-size: 1.3vw;
+        border-radius: 30px;
+        padding-top: 1%;
+        box-sizing: border-box;
+        padding-bottom: 1%;
+        height: 47px;
+    }
+    button{border-radius: 30px;
+        color: #000;   font-size: 1.2vw; 
+        height: 47px;   
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-left: 20px;
+    }
+    .btn1{
+        border: 1px solid #F4B955;
+        background-color: white;
+        width: 95px;
+    }
+    .btn2{
+        background-color: #F4B955;
+        width: 117px;
+    border: none;
+    }
+    .menuicon{display: none;}
+}.usericon{height: 50px;width: 50px;border-radius: 50%;margin-left: 30px;}
+
+@media screen and (max-width:999px) {
+    .usericon{height: 35px !important;width: 35px !important;}
+    .menuicon{display: block !important;
+        width: 40px !important;
+        padding: 0% !important;
+        border: none !important;
+        img{
+        width: 100%;
+        padding: 0% !important;
+        height: 100%;
+        border-radius: 0% !important;
+
+    }}
+    
+}
+@media screen and  (max-width:1000px) and (min-width:600px) {
+    .div1{
+        select{display: none;}
+
+    }
+    .div2{
+        width: 40% !important;
+        input{display: none;}
+        button{font-size: 2vw;width: 45%;border-radius: 3vw;padding: 0 4%;}
+        .btn1{width:  75px;}
+        .btn2{width: 97px;}
+    }
+}
+@media screen and  (max-width:599px){
+    .div1{
+        select{display: none;}
+img{height: 45px !important;}
+    }
+    .div2{
+        width: 50% !important;
+        input{display: none;}
+        button{font-size: 3vw !important;height: 37px !important;width: 45%;border-radius: 4vw;padding: 0 4%;margin-left: 5px !important;}
+        .btn1{width:  75px; }
+        .btn2{width: 97px;}
+    }
+}
